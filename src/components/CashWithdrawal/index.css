@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #c7d2fe;
+  font-family: 'Roboto';
+}
+
+.bg-container {
+  background-color: #ffffff;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  height: 550px;
+  width: 550px;
+  background-color: #150b3e;
+  border-style: none;
+  border-radius: 9px;
+  padding: 30px;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  /* Making a circular logo with text "S" using span element */
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #585076;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-right: 15px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.username {
+  font-size: 20px;
+}
+
+.balance-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.withdraw-container {
+  margin-top: 40px;
+}
+
+.items-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
